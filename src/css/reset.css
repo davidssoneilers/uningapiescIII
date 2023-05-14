@@ -1,0 +1,9 @@
+*{ /*o asteristicos serve pra pegar todas as tags */
+    margin: 0;/*imagem externa */
+    padding: 0; /*imagem interna*/
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;/*tirar a bolinha da lista*/
+    
+}
