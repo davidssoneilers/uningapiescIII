@@ -8,6 +8,12 @@ ul {
     padding: 0ppx!important;
 
 }
+.main-container {
+    width: 95%; /* Ajuste conforme necessário */
+    max-width: 1200px; /* Largura máxima para evitar que o conteúdo se estenda demais */
+    margin: 0 auto; /* Centralizar o conteúdo */
+    padding: 20px; /* Espaçamento interno */
+    
 .menu-principal {
     width: 100%;
     background-color: #232625;
@@ -80,6 +86,11 @@ main, .content {
     float: right;
     
 }
+    @media screen and (max-width: 768px) {
+    .logo, .redes-sociais, .menu, .busca {
+        float: none;
+        width: 100%;
+    }
 .busca input {
     background-image: url('../img/lupa.png');
     background-repeat: no-repeat;
